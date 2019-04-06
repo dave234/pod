@@ -28,9 +28,9 @@ In order to create an Apple AUv3 audio unit, an AUAudioUnit subclass must be cre
   s.source           = { :git => 'https://github.com/dave234/AppleAudioUnit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
-  s.tvos.deployment_target = '11.0'
-  s.osx.deployment_target = '10.13'
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
+  s.osx.deployment_target = '10.11'
 
   s.swift_version = '5.0'
   s.source_files = 'AppleAudioUnit/Classes/**/*'
